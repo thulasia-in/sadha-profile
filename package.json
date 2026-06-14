@@ -1,0 +1,12 @@
+{
+  "name": "sadhasivam-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Personal portfolio website for M. Sadhasivam - Data Scientist & AI Developer",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'No build step required - static site'",
+    "start": "npx serve ."
+  },
+  "license": "MIT"
+}
