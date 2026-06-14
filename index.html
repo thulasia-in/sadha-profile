@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of M. Sadhasivam - Data Scientist & AI Developer. Specializing in Python, SQL, Machine Learning, Computer Vision, and Business Intelligence with a solid mathematical foundation.">
+    <meta name="keywords" content="M. Sadhasivam, Sadhasivam Erode, Data Scientist, Machine Learning Engineer, Python Developer, BSc Mathematics, MSc Data Science, Autism Prediction Thermal Imaging, AI EdTech">
+    <meta name="author" content="M. Sadhasivam">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="M. Sadhasivam | Data Scientist & AI Solutions Developer">
+    <meta property="og:description" content="Transforming complex datasets and mathematical foundations into intelligent AI applications and interactive business insights.">
+    <meta property="og:image" content="assets/profile_avatar.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="M. Sadhasivam | Data Scientist & AI Solutions Developer">
+    <meta property="twitter:description" content="Transforming complex datasets and mathematical foundations into intelligent AI applications.">
+    <meta property="twitter:image" content="assets/profile_avatar.png">
+
+    <title>M. Sadhasivam | Data Scientist & AI Solutions Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons for modern aesthetic -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Background Canvas for Interactive Matrix/Mathematical Wave Grid -->
+    <div class="bg-grid-overlay"></div>
+    <div class="bg-glow-effect"></div>
+
+    <!-- Header & Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="gradient-text">Sadhasivam</span><span class="logo-dot">.M</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#about" class="nav-link active">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#contact" class="nav-link nav-contact-btn">Get In Touch</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Theme Switcher -->
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fa-regular fa-moon" id="theme-icon"></i>
+                </button>
+                
+                <!-- Hamburger Menu for Mobile -->
+                <button class="hamburger" id="hamburger" aria-label="Toggle Mobile Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge reveal-item">
+                        <span class="badge-dot"></span> Available for Data Science & AI Roles
+                    </div>
+                    <h1 class="hero-name reveal-item">
+                        Hi, I'm <span class="gradient-text">Sadhasivam M.</span>
+                    </h1>
+                    <h2 class="hero-title reveal-item">
+                        I specialize in <span class="terminal-text" id="typing-text"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-tagline reveal-item">
+                        A math graduate turned data scientist. I build machine learning pipelines, optimize computer vision systems, and create high-performing digital marketing strategies powered by deep analytical insights.
+                    </p>
+                    <div class="hero-buttons reveal-item">
+                        <a href="#projects" class="btn btn-primary">
+                            <span>View Projects</span> <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="assets/Sadhasivam_M_Resume.pdf" class="btn btn-secondary" download="Sadhasivam_M_Resume.pdf">
+                            <span>Download CV</span> <i class="fa-solid fa-download"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <span>Contact Me</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal-item">
+                    <div class="avatar-wrapper">
+                        <div class="avatar-glowing-ring"></div>
+                        <img src="assets/profile_avatar.png" alt="M. Sadhasivam Profile Avatar" class="profile-avatar">
+                    </div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-indicator" aria-label="Scroll to About Me">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+            </a>
+        </section>
+
+        <!-- About Me Section -->
+        <section class="about-section scroll-reveal" id="about">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">Biography</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-underline"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text-content">
+                        <p class="about-lead">
+                            Bridging the precision of <strong>Mathematics</strong> with the predictive power of <strong>Data Science</strong>.
+                        </p>
+                        <p class="about-body">
+                            My career path is fueled by curiosity, logic, and analytical problem-solving. Having graduated with honors in <strong>BSc Mathematics</strong>, I gained a rigorous understanding of numerical algorithms, statistical distribution models, and linear algebra. Seeking to apply these mathematical paradigms to solve contemporary problems, I transitioned into an <strong>MSc in Data Science</strong> at Bharathiar University.
+                        </p>
+                        <p class="about-body">
+                            I specialize in building intelligent systems—ranging from <strong>autism screening models using thermal imaging & computer vision</strong> to generative AI tools for EdTech. Beyond engineering, I combine technical expertise with digital marketing, search engine optimization (SEO), and business operations to deliver multidimensional value to growth-focused environments.
+                        </p>
+                        <div class="career-metrics">
+                            <div class="metric-card">
+                                <span class="metric-num">BSc</span>
+                                <span class="metric-label">Mathematics</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-num">MSc</span>
+                                <span class="metric-label">Data Science</span>
+                            </div>
+                            <div class="metric-card">
+                                <span class="metric-num">AI+</span>
+                                <span class="metric-label">Driven Projects</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-info-cards">
+                        <div class="info-card">
+                            <div class="info-card-icon">
+                                <i class="fa-solid fa-brain"></i>
+                            </div>
+                            <h3>Core Philosophy</h3>
+                            <p>Translate noisy, unstructured datasets into clear mathematical representations, extracting patterns that drive real-world impact.</p>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-card-icon">
+                                <i class="fa-solid fa-compass"></i>
+                            </div>
+                            <h3>Career Goal</h3>
+                            <p>To secure a key technical position within an innovative organization where I can leverage machine learning, computer vision, and data intelligence to solve complex business operations.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills-section scroll-reveal" id="skills">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">Expertise</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <!-- Skill Category Filter Chips -->
+                <div class="skills-filters">
+                    <button class="filter-btn active" data-filter="all">All Skills</button>
+                    <button class="filter-btn" data-filter="tech">Technical & Data Science</button>
+                    <button class="filter-btn" data-filter="marketing">Digital Marketing & Growth</button>
+                    <button class="filter-btn" data-filter="office">Accounts & Business Ops</button>
+                    <button class="filter-btn" data-filter="soft">Interpersonal / Soft Skills</button>
+                </div>
+
+                <!-- Skills Grid -->
+                <div class="skills-grid" id="skills-container">
+                    <!-- Python -->
+                    <div class="skill-item" data-category="tech">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-brands fa-python skill-logo"></i> Python Programming</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <!-- SQL -->
+                    <div class="skill-item" data-category="tech">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-solid fa-database skill-logo"></i> SQL & Databases</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <!-- Power BI -->
+                    <div class="skill-item" data-category="tech">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-solid fa-chart-simple skill-logo"></i> Power BI / Dashboarding</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <!-- Advanced Excel -->
+                    <div class="skill-item" data-category="tech office">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-regular fa-file-excel skill-logo"></i> Advanced MS Excel</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 88%;"></div>
+                        </div>
+                    </div>
+                    <!-- Social Media Marketing -->
+                    <div class="skill-item" data-category="marketing">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-solid fa-share-nodes skill-logo"></i> Social Media Marketing</span>
+                            <span class="skill-percentage">82%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 82%;"></div>
+                        </div>
+                    </div>
+                    <!-- Content Creation -->
+                    <div class="skill-item" data-category="marketing">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-solid fa-pen-nib skill-logo"></i> Creative Content Creation</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <!-- Basic SEO -->
+                    <div class="skill-item" data-category="marketing">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-solid fa-magnifying-glass-chart skill-logo"></i> Search Engine Optimization (SEO)</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <!-- Accounts Handling -->
+                    <div class="skill-item" data-category="office">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-solid fa-calculator skill-logo"></i> Financial Accounts Handling</span>
+                            <span class="skill-percentage">78%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 78%;"></div>
+                        </div>
+                    </div>
+                    <!-- Data Entry -->
+                    <div class="skill-item" data-category="office">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-solid fa-keyboard skill-logo"></i> High-Speed Data Entry</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <!-- Project Management -->
+                    <div class="skill-item" data-category="soft">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-solid fa-tasks skill-logo"></i> Project Management</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <!-- Teamwork -->
+                    <div class="skill-item" data-category="soft">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-solid fa-users skill-logo"></i> Collaboration & Teamwork</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 90%;"></div>
+                        </div>
+                    </div>
+                    <!-- Time Management -->
+                    <div class="skill-item" data-category="soft">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-regular fa-clock skill-logo"></i> Strategic Time Management</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <!-- Leadership -->
+                    <div class="skill-item" data-category="soft">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-solid fa-crown skill-logo"></i> Initiatives & Leadership</span>
+                            <span class="skill-percentage">82%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 82%;"></div>
+                        </div>
+                    </div>
+                    <!-- Critical Thinking -->
+                    <div class="skill-item" data-category="soft">
+                        <div class="skill-info">
+                            <span class="skill-name"><i class="fa-solid fa-lightbulb skill-logo"></i> Analytical & Critical Thinking</span>
+                            <span class="skill-percentage">92%</span>
+                        </div>
+                        <div class="skill-bar-bg">
+                            <div class="skill-bar-fill" style="width: 92%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects-section scroll-reveal" id="projects">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">Portfolio Showcase</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Autism Prediction -->
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <div class="project-icon"><i class="fa-solid fa-head-side-virus"></i></div>
+                            <span class="project-tag">Machine Learning</span>
+                        </div>
+                        <h3 class="project-title">Autism Prediction System using Thermal Imaging</h3>
+                        <p class="project-description">Developed a non-invasive Computer Vision diagnostic system analyzing facial thermography data to recognize patterns linked to autism spectrum profiles.</p>
+                        <div class="project-tech-stack">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>Scikit-Learn</span>
+                            <span>Thermal Processing</span>
+                        </div>
+                        <button class="project-btn" onclick="openProjectModal('autism')">
+                            View Case Study <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- Project 2: AI Animated EdTech -->
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <div class="project-icon"><i class="fa-solid fa-clapperboard"></i></div>
+                            <span class="project-tag">Generative AI</span>
+                        </div>
+                        <h3 class="project-title">AI-Powered Animated Educational Platform</h3>
+                        <p class="project-description">Created a text-to-animation generative platform designed to convert abstract educational curriculum scripts into dynamic graphical interactive visual content.</p>
+                        <div class="project-tech-stack">
+                            <span>Python</span>
+                            <span>Generative AI</span>
+                            <span>HTML5</span>
+                            <span>JS Animation</span>
+                        </div>
+                        <button class="project-btn" onclick="openProjectModal('edtech')">
+                            View Case Study <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- Project 3: Business Intelligence -->
+                    <div class="project-card">
+                        <div class="project-card-header">
+                            <div class="project-icon"><i class="fa-solid fa-chart-line"></i></div>
+                            <span class="project-tag">Business Intelligence</span>
+                        </div>
+                        <h3 class="project-title">Dynamic Business Intelligence & Growth Dashboard</h3>
+                        <p class="project-description">Built unified reporting panels modeling social campaigns, operations metrics, and business intelligence conversions using ETL practices.</p>
+                        <div class="project-tech-stack">
+                            <span>Power BI</span>
+                            <span>SQL</span>
+                            <span>Advanced Excel</span>
+                            <span>SEO Analytics</span>
+                        </div>
+                        <button class="project-btn" onclick="openProjectModal('bi')">
+                            View Case Study <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Accomplishments Section -->
+        <section class="experience-section scroll-reveal" id="experience">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">Chronology</span>
+                    <h2 class="section-title">Experience & Initiatives</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- AI & Data Science Projects (Bharathiar Univ) -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2024 - Present</span>
+                            <h3>AI Researcher & Data Developer</h3>
+                            <span class="timeline-org">Bharathiar University (Academic Work)</span>
+                            <p>Executed advanced data modeling, data wrangling, and scientific research. Spearheaded the technical realization of computer vision and image processing pipelines, combining numerical mathematics with automated ML classifier models.</p>
+                            <ul class="timeline-highlights">
+                                <li>Pioneered thermal imaging modeling workflows for pediatric health classification.</li>
+                                <li>Designed script-driven text processing structures to drive prompt engineering structures in Educational Animations.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Digital Media & Content Specialist -->
+                    <div class="timeline-item right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 - Present</span>
+                            <h3>Content Creator & Brand Strategist</h3>
+                            <span class="timeline-org">Freelance & Personal Branding</span>
+                            <p>Spearheaded community building, video/image content creation, and search engine optimization. Managed end-to-end digital operations across social platforms, integrating marketing analytics with optimized search techniques.</p>
+                            <ul class="timeline-highlights">
+                                <li>Successfully created digital content templates that optimized viewer engagement by over 40%.</li>
+                                <li>Conducted keyword audits and basic SEO optimization for high-traffic content profiles.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Academic Leadership & Operations -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2021 - 2024</span>
+                            <h3>Student Lead & Operations Volunteer</h3>
+                            <span class="timeline-org">Erode Arts and Science College</span>
+                            <p>Orchestrated department events, organized math symposiums, and coordinated group project pipelines. Oversaw operational administration including data logs, spreadsheet-based accounts handling, and administrative audits.</p>
+                            <ul class="timeline-highlights">
+                                <li>Coordinated team logistics and scheduling for inter-college competitive panels.</li>
+                                <li>Managed department-level event budgets and spreadsheets, maintaining 100% financial tracking accuracy.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education-section scroll-reveal" id="education">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">Academic Credentials</span>
+                    <h2 class="section-title">Education</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="education-grid">
+                    <!-- MSc Data Science -->
+                    <div class="education-card">
+                        <div class="edu-header">
+                            <div class="edu-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <span class="edu-duration">2024 - 2026</span>
+                        </div>
+                        <h3>MSc in Data Science</h3>
+                        <p class="edu-institution">Bharathiar University, Coimbatore</p>
+                        <p class="edu-description">Specializing in Machine Learning, Statistical Inference, Deep Learning, Image Processing, and SQL Database Design. Academic projects focus on deploying AI models for non-invasive medical classification and automated media creation.</p>
+                        <div class="edu-achievements">
+                            <span class="edu-badge"><i class="fa-solid fa-star"></i> Core Focus: Computer Vision & ML</span>
+                            <span class="edu-badge"><i class="fa-solid fa-star"></i> Practical AI Integration</span>
+                        </div>
+                    </div>
+
+                    <!-- BSc Mathematics -->
+                    <div class="education-card">
+                        <div class="edu-header">
+                            <div class="edu-icon"><i class="fa-solid fa-calculator"></i></div>
+                            <span class="edu-duration">2021 - 2024</span>
+                        </div>
+                        <h3>BSc in Mathematics</h3>
+                        <p class="edu-institution">Erode Arts and Science College, Erode</p>
+                        <p class="edu-description">Focused on Algebra, Real Analysis, Numerical Methods, Probability Distributions, and Operations Research. Graduated with a robust mathematical framework that directly forms the core concepts of current ML and analytics algorithms.</p>
+                        <div class="edu-achievements">
+                            <span class="edu-badge"><i class="fa-solid fa-star"></i> Graduated with Honors</span>
+                            <span class="edu-badge"><i class="fa-solid fa-star"></i> Quantitative Focus</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Extra Courses and Certifications -->
+                <div class="extra-courses-box">
+                    <h3>Specialized Training & Professional Certifications</h3>
+                    <div class="courses-flex">
+                        <div class="course-pill"><i class="fa-solid fa-award"></i> Business Intelligence & Data Analyst Training</div>
+                        <div class="course-pill"><i class="fa-solid fa-award"></i> Advanced Digital Marketing & SEO Strategy</div>
+                        <div class="course-pill"><i class="fa-solid fa-award"></i> Financial Accounts & Ledger Management</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section scroll-reveal" id="contact">
+            <div class="section-container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get In Touch</span>
+                    <h2 class="section-title">Contact & Socials</h2>
+                    <div class="section-underline"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-panel">
+                        <h3>Let's Collaborate</h3>
+                        <p class="contact-pitch">
+                            I am actively seeking internship opportunities and entry-level positions in <strong>Data Science, Machine Learning, and AI Development</strong>. Whether you have a complex dataset to crack, an AI application to build, or a digital marketing funnel to optimize—let's build it together.
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="contact-text">
+                                    <span class="label">Email Me</span>
+                                    <a href="mailto:sadha8986@gmail.com" class="value">sadha8986@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="contact-text">
+                                    <span class="label">Call/WhatsApp</span>
+                                    <a href="tel:+917373662697" class="value">+91 7373662697</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="contact-text">
+                                    <span class="label">Location</span>
+                                    <span class="value">Erode, Tamil Nadu, India - 638014</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links-box">
+                            <span class="social-title">Follow/Connect:</span>
+                            <div class="social-links">
+                                <a href="https://linkedin.com/in/sadhasivam-m" target="_blank" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/sadhasivam-m" target="_blank" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                                <a href="mailto:sadha8986@gmail.com" aria-label="Send Email"><i class="fa-solid fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Card -->
+                    <div class="contact-form-card">
+                        <h3>Send A Message</h3>
+                        <form id="contact-form" onsubmit="handleFormSubmit(event)">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" required placeholder=" " class="form-input">
+                                <label for="name" class="form-label">Full Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" required placeholder=" " class="form-input">
+                                <label for="email" class="form-label">Email Address</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" required placeholder=" " class="form-input">
+                                <label for="subject" class="form-label">Subject</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" required placeholder=" " class="form-input form-textarea"></textarea>
+                                <label for="message" class="form-label">Your Message</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+                                <span>Send Message</span> <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <div class="form-status" id="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Details Modals -->
+    <div class="modal-overlay" id="project-modal" onclick="closeProjectModal(event)">
+        <div class="modal-card" onclick="event.stopPropagation()">
+            <button class="modal-close" onclick="closeProjectModal()" aria-label="Close Modal">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-content" id="modal-dynamic-content">
+                <!-- Injected via Javascript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll To Top Button -->
+    <button class="scroll-to-top" id="scroll-to-top" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 M. Sadhasivam. Crafted with Passion & Precision.</p>
+            <p class="footer-sub">BSc Mathematics | MSc Data Science | AI & BI Solutions</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
